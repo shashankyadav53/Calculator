@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(50deg, rgb(247, 72, 72), white,rgb(64, 238, 64));
+    border: 10px solid black;
+}
+.container{
+    border: 1px solid rgb(43, 203, 203);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(157, 236, 236);
+    box-shadow: inset -5px -5px 12px rgb(157, 236, 236),
+}
+#data{
+    width: 255px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 3px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: end;
+    border: none;
+    box-shadow: inset -5px -5px 12px #fff,
+                inset 5px 5px 12px rgba(0,0,0,0.14);
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    cursor: pointer;
+    box-shadow: -5px -5px 12px rgb(157, 236, 236), 5px 5px 12px rgba(0,0,0,0.14);
+    border: none;
+}
+.Keyss{
+    width: 115px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.Keyss:hover{
+    background-color: green;
+}
+.Keys{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.Keys:hover{
+    background-image: linear-gradient(45deg, rgb(125, 226, 246), rgb(197, 231, 29));
+}
+.Key{
+    border-radius: 5px;
+    font-weight: bold; 
+    font-size: large;
+}
+.Key:hover{
+    background-color: rgb(164, 164, 164);
+}
+#ACDELs{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+#ACDELs:hover{
+    background-color: red;
+}
+h4{
+    text-align: end;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
